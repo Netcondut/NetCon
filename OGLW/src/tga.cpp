@@ -106,6 +106,7 @@ int loadTGA (char *name, int id)
     unsigned char *imageData = NULL;
     int imageWidth, imageHeight;
     int size;
+    fatalError("test");
     FILE *s;
 
     if (!(s = fopen (name, "r+bt")))
@@ -124,6 +125,7 @@ int loadTGA (char *name, int id)
     size = imageWidth * imageHeight;
 
     /* make sure dimension is a power of 2 */
+
     if (!checkSize (imageWidth) || !checkSize (imageHeight))
         returnError (s, TGA_BAD_DIMENSION);
 

@@ -92,7 +92,8 @@
 1286794856 source:/users/info/etu-s1/possylka/projects/OGLW/src/Error.cpp
 	"../include/Error.h"
 
-933015418 /users/info/etu-s1/possylka/projects/OGLW/include/tga.h
+1286798641 /users/info/etu-s1/possylka/projects/OGLW/include/tga.h
+	"Error.h"
 
 1286797890 source:/users/info/etu-s1/possylka/projects/OGLW/src/Texture2D.cpp
 	"../include/Texture2D.h"
@@ -104,7 +105,7 @@
 	<string.h>
 	<GL/gl.h>
 
-1286797459 source:/users/info/etu-s1/possylka/projects/OGLW/src/tga.cpp
+1286798618 source:/users/info/etu-s1/possylka/projects/OGLW/src/tga.cpp
 	"../include/tga.h"
 	<stdio.h>
 	<stdlib.h>
